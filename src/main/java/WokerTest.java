@@ -20,6 +20,7 @@ public class WokerTest {
     while (iterator.hasNext()) {
       Worker worker = iterator.next();
       worker.work();
+      System.out.println("213213");
     }
   }
 }
